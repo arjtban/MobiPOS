@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="saleTableModePackage.Leave_and_Feedback">
+      <class name="reportsMobi.SaleRegister">
         <methods>
-          <include name="leavetable"/>
-          <include name="setupapplication"/>
-          <include name="feedback"/>
+          <include name="CheckSaleData"/>
         </methods>
-      </class> <!-- saleTableModePackage.Leave_and_Feedback -->
+      </class> <!-- reportsMobi.SaleRegister -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
